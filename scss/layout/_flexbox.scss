@@ -1,0 +1,17 @@
+.product {
+  display: flex;
+  &__image {
+    max-width: fit-content;
+  }
+  &__details {
+    padding: 16px;
+    h2 {
+      letter-spacing: 4px;
+      font-weight: lighter;
+      color: hsl(228, 12%, 48%);
+    }
+    h1 {
+      font-weight: bold;
+    }
+  }
+}
